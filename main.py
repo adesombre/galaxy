@@ -15,7 +15,7 @@ class MainWidget(Widget):
 
 	def on_size(self, *args):
 		pass
-		#print("ON SIZE W:" + str(self.width) + " H:" + str(self.height))
+		print("ON SIZE W:" + str(self.width) + " H:" + str(self.height))
 		#self.perspective_point_x = self.width / 2
 		#self.perspective_point_y = self.height * 0.75
 
@@ -24,6 +24,8 @@ class MainWidget(Widget):
 
 	def on_perpective_point_y(self, widget, value):
 		print("PY:" + str(value))
+
+
 class GalaxyApp(App):
 	pass
 
